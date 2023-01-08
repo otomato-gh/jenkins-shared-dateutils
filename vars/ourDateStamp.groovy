@@ -1,7 +1,7 @@
 def call(format)
 {
    supported_formats = ["ddmmyy", "mmddyy"]
-   if !formats.contains(format) {
+   if (!formats.contains(format)) {
       println "Unspported format $format"
       return 1
    }
