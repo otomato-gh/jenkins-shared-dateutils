@@ -6,6 +6,5 @@ def call(format)
       return 1
    }
    println format.getClass()
-   d = new Date()
-   return Date.format(format.toString())
+   return new Date().format(format)
  }  
